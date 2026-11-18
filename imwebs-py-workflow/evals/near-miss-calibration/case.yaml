@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: near-miss-calibration
+expected_outcome: |
+  A calibration question rather than model building; the response addresses calibration
+  strategy rather than INI configuration.

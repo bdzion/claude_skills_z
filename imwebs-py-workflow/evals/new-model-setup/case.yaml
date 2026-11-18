@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: new-model-setup
+expected_outcome: |
+  Provides model and scenario INI content with code-accurate keys
+  (tile_drain_boundary_shapefile, wetland_boundary_shapefile, crop_rotation keys,
+  delineation floats), states CRS/resolution/extent requirements, lookup CSV format,
+  required tile-drain attributes, model_type subarea, and includes
+  generate_subarea_parameter_database; suggests running the checker.
