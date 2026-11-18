@@ -36,6 +36,8 @@ def check_skill(skill) -> list[str]:
         errs.append("missing description")
     elif len(desc) > MAX_DESCRIPTION_CHARS:
         errs.append(f"description is {len(desc)} chars (> {MAX_DESCRIPTION_CHARS})")
+    if re.search(r"<[^<>]*>", desc):
+        errs.append("description contains tag-like text such as <id>, which the claude.ai uploader rejects as an XML tag")
     files = upload_files(skill)
     if len(files) > MAX_UPLOAD_FILES:
         errs.append(f"{len(files)} files in the upload set (> {MAX_UPLOAD_FILES})")
