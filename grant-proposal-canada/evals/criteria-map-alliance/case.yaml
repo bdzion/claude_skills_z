@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: criteria-map-alliance
+expected_outcome: |
+  Asks for or retrieves the current call criteria, builds a criteria map and logic model,
+  includes partner contribution and benefit, HQP training, EDI, knowledge mobilization,
+  work plan and budget alignment, and uses placeholders for unknown numbers.

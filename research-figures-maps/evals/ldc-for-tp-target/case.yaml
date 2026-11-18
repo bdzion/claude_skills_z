@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: ldc-for-tp-target
+expected_outcome: |
+  Produces a commented Python script that computes the flow exceedance, plots the
+  allowable load (target x Q x 86.4) on a log axis, places sample loads at their flow
+  exceedance, distinguishes exceedances, marks flow regimes, uses a journal column width,
+  and labels units.

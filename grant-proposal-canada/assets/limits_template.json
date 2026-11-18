@@ -1,0 +1,11 @@
+{
+  "funder": "FILL IN: program name and competition year",
+  "source_url": "FILL IN: official guidelines URL",
+  "accessed": "FILL IN: YYYY-MM-DD",
+  "sections": {
+    "Project summary": {"max_words": 0},
+    "Project description": {"max_words": 0},
+    "Lay summary": {"max_chars": 0, "count_spaces": true}
+  },
+  "required_sections": ["Project summary", "Project description"]
+}

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: early-vs-delayed-phosphate
+expected_outcome: |
+  Writes a shock card or equivalent framing, builds a propagation scenario with explicit
+  parameters, compares response start times, labels numbers as illustrative unless
+  sourced, states model limits, and gives slide-ready wording with ranges.

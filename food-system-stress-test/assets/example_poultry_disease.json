@@ -1,0 +1,83 @@
+{
+  "name": "Example: poultry disease outbreak reduces live-bird supply (ILLUSTRATIVE)",
+  "unit": "tonnes poultry meat equivalent",
+  "parameters_sourced": false,
+  "assumption_notes": [
+    "All numbers are placeholders chosen to show the mechanics, not estimates for Canada or any province.",
+    "Replace demand, capacity, buffers, severity and response magnitudes with sourced values and cite each in this list."
+  ],
+  "days": 180,
+  "value_per_unit": null,
+  "nodes": [
+    {
+      "id": "farms",
+      "name": "Broiler farms",
+      "demand": 100,
+      "capacity": 100,
+      "buffer_days": 0
+    },
+    {
+      "id": "processing",
+      "name": "Processing plants",
+      "demand": 100,
+      "capacity": 100,
+      "buffer_days": 4,
+      "inputs": [
+        "farms"
+      ]
+    },
+    {
+      "id": "cold_chain",
+      "name": "Distribution and cold storage",
+      "demand": 100,
+      "capacity": 100,
+      "buffer_days": 10,
+      "inputs": [
+        "processing"
+      ]
+    },
+    {
+      "id": "retail",
+      "name": "Retail and food service",
+      "demand": 100,
+      "capacity": 100,
+      "buffer_days": 3,
+      "inputs": [
+        "cold_chain"
+      ]
+    }
+  ],
+  "shocks": [
+    {
+      "node": "farms",
+      "start_day": 14,
+      "duration": 60,
+      "severity": 0.4,
+      "recovery_days": 60
+    }
+  ],
+  "responses": [
+    {
+      "node": "farms",
+      "type": "severity_reduction",
+      "magnitude": 0.5,
+      "ramp_days": 14
+    },
+    {
+      "node": "retail",
+      "type": "demand_reduction",
+      "magnitude": 0.05,
+      "ramp_days": 7
+    }
+  ],
+  "response_start_days": [
+    7,
+    14,
+    28,
+    42,
+    60
+  ],
+  "report_nodes": [
+    "retail"
+  ]
+}

@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: flowpaths-tile-drained-field
+expected_outcome: |
+  Checks CRS/units (projected, metres; e.g. EPSG:2958/26917), burns culverts at road
+  crossings before breaching, uses least-cost breaching, derives SCA/slope/TWI/SPI and
+  concentrated flow paths with a stated threshold, notes tile drainage limits of surface
+  analysis, and provides commented Python.

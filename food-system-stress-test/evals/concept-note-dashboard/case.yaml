@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: concept-note-dashboard
+expected_outcome: |
+  Produces a one-page concept note with problem, what the system does, how it works, what
+  decision-makers see, a phased roadmap, and why now; neutral government-appropriate tone;
+  no unsourced statistics; distinguishes signals from forecasts.

@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: near-miss-model-calibration
+expected_outcome: |
+  This is a model-calibration question, not monitoring-data analysis; the answer focuses
+  on calibration strategy and parameters rather than trend tests or load estimators.

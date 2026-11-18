@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: resilience-definition-citation
+expected_outcome: |
+  Gives the Tendall et al. (2015) definition with correct citation and DOI
+  10.1016/j.gfs.2015.08.001, notes to check exact wording and page, and may mention
+  related framings (Béné 2020) without fabricating references.

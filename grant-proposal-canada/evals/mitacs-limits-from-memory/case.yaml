@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: mitacs-limits-from-memory
+expected_outcome: |
+  Does not state limits or contribution amounts from memory as fact; looks them up on the
+  official Mitacs page (or says it cannot and asks for the PDF), records the source and
+  access date, and offers the compliance check.

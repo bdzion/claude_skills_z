@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: gee-cover-crop-mapping
+expected_outcome: |
+  Uses COPERNICUS/S2_SR_HARMONIZED with a cloud mask, a post-harvest date window, NDVI
+  (and possibly spring window), sets crs and scale explicitly on export, flags that
+  thresholds need local calibration and that snow limits observations, and recommends
+  accuracy assessment.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: ml-shap-leakage
+expected_outcome: |
+  Flags random splitting as leakage for autocorrelated, station-structured data and
+  recommends time-blocked or leave-station-out validation; states that SHAP shows model
+  associations, not causation; suggests a baseline comparison; proposes careful wording.

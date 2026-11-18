@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: annual-load-sparse-sampling
+expected_outcome: |
+  Computes or prescribes several load estimators (interpolation, FWMC, Beale ratio;
+  regression/WRTDS for sparse sampling), explains that fixed-schedule sampling misses
+  storm events so estimators disagree, checks whether high flows were sampled, and uses
+  the correct unit conversion (86.4).

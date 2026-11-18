@@ -1,0 +1,31 @@
+{
+  "name": "claude-skills-z",
+  "owner": {
+    "name": "Md Bodrud-Doza",
+    "url": "https://github.com/bdzion"
+  },
+  "description": "Research skills for agricultural watersheds, water quality, precision conservation, food-system resilience, figures and Canadian grant writing (Md Bodrud-Doza, University of Guelph).",
+  "plugins": [
+    {
+      "name": "claude-skills-z",
+      "source": "./",
+      "description": "Research skills for agricultural watersheds, water quality, precision conservation, food-system resilience, figures and Canadian grant writing (Md Bodrud-Doza, University of Guelph).",
+      "version": "0.1.0",
+      "skills": [
+        "./bodrud-doza-scholarly-voice",
+        "./evans-clean-writing",
+        "./evans-reviewing",
+        "./evans-writing",
+        "./fable-playbook",
+        "./food-system-stress-test",
+        "./grant-proposal-canada",
+        "./precision-conservation-gis",
+        "./research-figures-maps",
+        "./water-quality-analysis",
+        "./watershed-model-calibration",
+        "./watershed-reviewing",
+        "./watershed-writing"
+      ]
+    }
+  ]
+}

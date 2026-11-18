@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: metrics-script-request
+expected_outcome: |
+  Provides or uses commented code computing the metrics with the PBIAS sign convention
+  stated; removes the warm-up; notes that Moriasi ratings refer to monthly values and
+  either aggregates to monthly or says so before rating daily results.

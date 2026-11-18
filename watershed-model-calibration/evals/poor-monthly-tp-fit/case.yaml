@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: poor-monthly-tp-fit
+expected_outcome: |
+  Interprets PBIAS -48% correctly as overestimation; checks flow partitioning (tile vs
+  surface flow) and observed load quality before tuning P parameters; suggests specific P
+  and sediment parameters with plausible ranges; mentions p-factor/r-factor; notes Moriasi
+  ratings apply to monthly values and are guidelines.

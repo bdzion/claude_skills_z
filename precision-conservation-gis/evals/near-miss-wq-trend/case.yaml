@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: near-miss-wq-trend
+expected_outcome: |
+  A water-quality trend question; the response should address flow-adjusted trend testing
+  and not GIS terrain processing.

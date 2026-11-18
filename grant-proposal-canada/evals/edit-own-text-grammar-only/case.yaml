@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: edit-own-text-grammar-only
+expected_outcome: |
+  Corrects grammar only (aim->aims, field->fields, gives->give, farmers->farmers', adds
+  articles), preserves wording and voice, shows the changes.

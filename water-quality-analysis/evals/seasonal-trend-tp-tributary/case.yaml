@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: seasonal-trend-tp-tributary
+expected_outcome: |
+  Audits units, censoring and the detection-limit change before testing; recommends
+  seasonal Kendall with Sen slope (one value per season-year) and explains that the DL
+  drop can create a false downward trend unless values are re-censored at the highest DL;
+  distinguishes raw concentration trend from flow-adjusted trend; gives commented Python
+  with an assumptions block.

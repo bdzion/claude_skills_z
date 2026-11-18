@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: near-miss-watershed-scenario
+expected_outcome: |
+  A watershed model scenario question; the response should treat it as BMP scenario
+  comparison, not food-system shock propagation.

@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: near-miss-concept-note-food
+expected_outcome: |
+  This overlaps with the food-system stress-test skill's communication guidance; either
+  skill may help. A good response produces a roadmap-style concept note without invented
+  statistics.
