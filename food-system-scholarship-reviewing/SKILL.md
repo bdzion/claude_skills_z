@@ -1,26 +1,26 @@
 ---
-name: "evans-reviewing"
-description: "Use when reviewing a draft food-system manuscript, review, commentary or proposal section against Evan D.G. Fraser's conceptual frameworks and writing style; returns a scorecard and ranked, located critiques with concrete fixes, not a rewrite."
+name: "food-system-scholarship-reviewing"
+description: "Use when reviewing a draft food-system manuscript, review, commentary or proposal section against the vulnerability, resilience and buffers lens of food-system scholarship and its writing conventions; returns a scorecard and ranked, located critiques with concrete fixes, not a rewrite."
 ---
 
-# Evan's Reviewing: critiquing food-system drafts through Evan Fraser's lens
+# Food-system scholarship review: critiquing drafts through the vulnerability–resilience lens
 
-This skill reviews Dr. Bodrud-Doza's drafts the way a critical, constructive colleague trained on Evan D.G. Fraser's work would. It diagnoses; it does not rewrite. The review is an in-house critique, not Fraser's opinion. Never present it as his view or endorsement.
+This skill reviews Dr. Bodrud-Doza's drafts the way a critical, constructive colleague versed in this body of food-system scholarship would. It diagnoses; it does not rewrite. The review is an in-house critique. Never present it as the view or endorsement of any author in the corpus.
 
-The companion skill `evans-writing` holds the full description of the lens:
+The companion skill `food-system-scholarship-writing` holds the full description of the lens:
 - Section 2: conceptual commitments.
 - Section 3: paper architectures A–D.
 - Sections 4–5: rhetorical and sentence-level style.
 - Section 9: reference corpus with DOIs.
 
-This skill repeats only what is needed to review. If `evans-writing` is not loaded, the checklists below are self-sufficient.
+This skill repeats only what is needed to review. If `food-system-scholarship-writing` is not loaded, the checklists below are self-sufficient.
 
 ---
 
 ## 1. Ground rules
 
 1. **Read the whole draft before commenting.** If it is an attached file, read it in full. Do not review from the abstract alone.
-2. **Diagnose, don't rewrite.** Preserve the author's voice. Line edits are given only if the user asks. They are grammar and clarity edits unless he explicitly asks for Fraser-style restyling, and they are always shown as *Original | Suggested | Reason*.
+2. **Diagnose, don't rewrite.** Preserve the author's voice. Line edits are given only if the user asks. They are grammar and clarity edits unless he explicitly asks for restyling toward the lens, and they are always shown as *Original | Suggested | Reason*.
 3. **Be direct about weaknesses in reasoning or method.** Do not soften a Major problem into a suggestion.
 4. **Calibrate to genre.** Apply transferable moves to every paper:
    - shock vs context;
@@ -117,7 +117,7 @@ Rank findings Major, then Moderate, then Minor. Within each tier, order them by 
 Give the review in this order.
 
 1. **Header.** Paper type, target journal, stage, and the central claim restated in one sentence.
-2. **Verdict** (one short paragraph). What the draft argues, whether the argument holds through the Fraser lens, and the single most important fix.
+2. **Verdict** (one short paragraph). What the draft argues, whether the argument holds through the lens, and the single most important fix.
 3. **Strengths** (2–4 bullets). Name what works before critiquing.
 4. **Scorecard**, scored 1–4 (1 = absent or problematic, 2 = partial, 3 = solid, 4 = exemplary), with a one-line justification each. Mark "n/a for genre" where a dimension does not apply.
 
@@ -167,6 +167,6 @@ Keep the review proportionate: about 1–2 pages for a section and 3–5 for a f
 
 ## 7. Self-review use
 
-When the user asks to check a draft written with `evans-writing`, run the same passes. Also confirm that:
+When the user asks to check a draft written with `food-system-scholarship-writing`, run the same passes. Also confirm that:
 - every `[CITE: …]` placeholder is either resolved with a verified reference or still flagged;
-- no sentence attributes words or positions to Fraser that are not in a cited source.
+- no sentence attributes words or positions to any corpus author that are not in a cited source.

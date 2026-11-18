@@ -1,9 +1,9 @@
 ---
-name: "evans-clean-writing"
-description: "Use when writing or tightening plain-language food-system pieces (op-eds, Substack or blog essays, policy briefs, briefing notes, lay summaries) in the clean, first-person, buffers-and-shocks style of Evan Fraser's public essays."
+name: "food-system-scholarship-public-writing"
+description: "Use when writing or tightening plain-language food-system pieces (op-eds, Substack or blog essays, policy briefs, briefing notes, lay summaries) in a clean, first-person, buffers-and-shocks essay style drawn from public food-system scholarship."
 ---
 
-# Evan's Clean Writing: plain-language food-system pieces in Evan Fraser's essay style
+# Food-system scholarship for the public: plain-language pieces in a buffers-and-shocks essay style
 
 Use this skill when Dr. Bodrud-Doza needs food-system writing that a minister, a farmer, a journalist or a general reader can follow on one read. Typical pieces:
 - op-eds;
@@ -13,14 +13,14 @@ Use this skill when Dr. Bodrud-Doza needs food-system writing that a minister, a
 - lay summaries for grants;
 - explainers for The Conversation.
 
-It is built from Evan Fraser's public essays in *Feeding a Fragile World* ("Buffers. Food. Crisis."), August–October 2026.
+It is built from a set of public food-system essays published August–October 2026 (listed under Sources).
 
 Related skills:
-- `evans-writing` covers peer-reviewed prose in the same conceptual lens. Use it for papers.
-- `evans-reviewing` critiques drafts.
+- `food-system-scholarship-writing` covers peer-reviewed prose in the same conceptual lens. Use it for papers.
+- `food-system-scholarship-reviewing` critiques drafts.
 - This skill trades scholarly apparatus for clarity, and it keeps the argument honest.
 
-The text is for Dr. Bodrud-Doza's own byline. Never present it as Fraser's words. Never invent quotes, people, meetings or personal anecdotes.
+The text is for Dr. Bodrud-Doza's own byline. Never present it as the words of any source author. Never invent quotes, people, meetings or personal anecdotes.
 
 ---
 
@@ -87,7 +87,7 @@ Use no acronyms.
 
 ## 3. Clean sentences
 
-Fraser's essays average about 22 words a sentence, with roughly a quarter over 30 words. For "clean" writing, keep his rhythm but tighten it.
+The source essays average about 22 words a sentence, with roughly a quarter over 30 words. For "clean" writing, keep that rhythm but tighten it.
 
 - **Length targets:**
   - average sentence 15–20 words;
@@ -155,13 +155,13 @@ Fraser's essays average about 22 words a sentence, with roughly a quarter over 3
 - **Scenarios are not forecasts.** Label them as conversation starters and state their assumptions.
 - **Avoid both alarm and comfort.** If the headline is scary, include the caveat (for example, that aggregate food supply is adequate). If the news sounds good, check whether it is ("stabilized at 55 per cent of peak").
 - **Credit people** by name and role when their ideas shape the piece, and only with their actual words or ideas.
-- **Disclose AI assistance** for data work if it was used, as Fraser does in his method notes.
+- **Disclose AI assistance** for data work if it was used, as the source essays do in their method notes.
 
 ---
 
 ## 6. Applying this to Dr. Bodrud-Doza's work
 
-These are illustrations written for this skill, not Fraser's text.
+These are illustrations written for this skill, not text from the source essays.
 
 **Academic to clean, watershed:**
 > *Academic:* "Implementation of targeted BMPs in tile-drained subwatersheds demonstrated significant reductions in dissolved reactive phosphorus loading under projected climate scenarios."
@@ -224,7 +224,7 @@ lens = [len(s.split()) for s in sents]
 words = re.findall(r"[A-Za-z']+", text)
 print(f"sentences={len(sents)} mean={st.mean(lens):.1f} median={st.median(lens)}")
 print(f"% over 30 words={100*sum(l>30 for l in lens)/len(lens):.0f}  % under 10={100*sum(l<10 for l in lens)/len(lens):.0f}")
-print(f"long words (8+ letters)={100*sum(len(w)>=8 for w in words)/len(words):.1f}%  (Fraser essays ~18%, his papers ~23%)")
+print(f"long words (8+ letters)={100*sum(len(w)>=8 for w in words)/len(words):.1f}%  (source essays ~18%, corpus papers ~23%)")
 for s, l in zip(sents, lens):
     if l > 30: print(f"[{l}] {s[:120]}...")
 ```
@@ -244,5 +244,5 @@ All essays are from *Feeding a Fragile World*, Evan D.G. Fraser's Substack (evan
 
 **Limits.**
 - The corpus is seven essays.
-- The two co-written with Patrick Webb are more formal and less personal than Fraser's solo pieces, so they inform the policy-brief register (C) more than the essay voice (A).
+- The two co-written with Patrick Webb are more formal and less personal than the single-author pieces, so they inform the policy-brief register (C) more than the essay voice (A).
 - Statistics in these essays belong to their sources. If one is reused, cite the original source, not the essay, and check it is current.

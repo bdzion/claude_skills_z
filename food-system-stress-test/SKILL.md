@@ -52,7 +52,7 @@ False precision destroys that value, so every number is labelled sourced or illu
   (e.g. AAFC, CFIA, Public Safety Canada, Global Affairs Canada) from their official pages
   before describing them; do not describe programs from memory.
 - For prose in the user's own voice, apply the bodrud-doza-scholarly-voice skill; for
-  pieces co-written with Evan Fraser, the evans-writing or evans-clean-writing skills.
+  food-system papers and public pieces, the food-system-scholarship-writing or food-system-scholarship-public-writing skills.
 
 ## Model limits to state
 

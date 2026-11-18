@@ -18,7 +18,7 @@ matches its description, plus scripts, reference notes and test cases where usef
 | [watershed-writing](watershed-writing/) | Drafting watershed modelling and management manuscripts | — |
 | [watershed-reviewing](watershed-reviewing/) | Scorecard reviews of watershed drafts | — |
 | [bodrud-doza-scholarly-voice](bodrud-doza-scholarly-voice/) | Editing or drafting in my published scholarly voice | — |
-| [evans-writing](evans-writing/), [evans-reviewing](evans-reviewing/), [evans-clean-writing](evans-clean-writing/) | Co-authored food-system writing and reviews in Evan Fraser's frameworks and style | — |
+| [food-system-scholarship-writing](food-system-scholarship-writing/), [food-system-scholarship-reviewing](food-system-scholarship-reviewing/), [food-system-scholarship-public-writing](food-system-scholarship-public-writing/) | Food-system scholarship in the vulnerability, resilience and buffers tradition: drafting papers, reviewing drafts, and plain-language pieces | — |
 | [fable-playbook](fable-playbook/) | Planning and self-checking multi-step, high-stakes tasks | — |
 
 Shared conventions: Python first, commented and reproducible; every analysis states its

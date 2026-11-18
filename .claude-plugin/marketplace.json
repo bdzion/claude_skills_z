@@ -13,10 +13,10 @@
       "version": "0.1.0",
       "skills": [
         "./bodrud-doza-scholarly-voice",
-        "./evans-clean-writing",
-        "./evans-reviewing",
-        "./evans-writing",
         "./fable-playbook",
+        "./food-system-scholarship-public-writing",
+        "./food-system-scholarship-reviewing",
+        "./food-system-scholarship-writing",
         "./food-system-stress-test",
         "./grant-proposal-canada",
         "./precision-conservation-gis",

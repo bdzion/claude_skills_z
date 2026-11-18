@@ -1,13 +1,13 @@
 ---
-name: "evans-writing"
-description: "Use when drafting or outlining food-system articles, reviews, commentaries or proposal text in the argument style and conceptual frameworks of Evan D.G. Fraser (vulnerability, resilience, history as evidence, tradeoffs, policy portfolios)."
+name: "food-system-scholarship-writing"
+description: "Use when drafting or outlining food-system articles, reviews, commentaries or proposal text in the vulnerability, resilience and buffers tradition of food-system scholarship (social–ecological vulnerability, entitlements, history as evidence, tradeoffs, policy portfolios)."
 ---
 
-# Evan's Writing: drafting food-system scholarship in Evan Fraser's style
+# Food-system scholarship: drafting in the vulnerability–resilience tradition
 
-This skill helps Dr. Bodrud-Doza draft his own food-system manuscripts using the argument structure, conceptual frameworks and prose habits found in Evan D.G. Fraser's published work. The text produced is for Dr. Bodrud-Doza's authorship. Do not attribute words to Fraser, invent Fraser quotations, or imply his endorsement. Paraphrase rather than copy his sentences.
+This skill helps Dr. Bodrud-Doza draft his own food-system manuscripts using the argument structure, conceptual frameworks and prose habits of a body of published food-system scholarship (the corpus listed in Section 9). The text produced is for Dr. Bodrud-Doza's authorship. Do not attribute words to any corpus author, invent quotations, or imply anyone's endorsement. Paraphrase rather than copy sentences from the corpus.
 
-Companion skill: `evans-reviewing` uses the same lens to critique a draft. Run its checklist on any full draft before handing it over.
+Companion skill: `food-system-scholarship-reviewing` uses the same lens to critique a draft. Run its checklist on any full draft before handing it over.
 
 ---
 
@@ -16,8 +16,8 @@ Companion skill: `evans-reviewing` uses the same lens to critique a draft. Run i
 Settle the mode before writing.
 
 - **Outline mode.** Produce a section-by-section skeleton (Section 3), with the purpose of each paragraph in one line, the evidence each needs, and `[CITE: …]` placeholders.
-- **Draft mode.** Write new prose in the Fraser style (Sections 2–6).
-- **Revise-toward-Fraser mode.** Use only when the user explicitly asks for his existing text to be restyled. Show every change as a table with columns *Original | Revised | Reason*. Otherwise follow his standing preference: grammar and clarity only, preserve his voice, show changes. If he wants his own sentence-level voice with Fraser's argument architecture, combine this skill with `bodrud-doza-scholarly-voice`.
+- **Draft mode.** Write new prose in this style (Sections 2–6).
+- **Revise-toward-style mode.** Use only when the user explicitly asks for his existing text to be restyled. Show every change as a table with columns *Original | Revised | Reason*. Otherwise follow his standing preference: grammar and clarity only, preserve his voice, show changes. If he wants his own sentence-level voice with this argument architecture, combine this skill with `bodrud-doza-scholarly-voice`.
 
 Before drafting, establish:
 1. The paper type (A–D in Section 3).
@@ -31,7 +31,7 @@ If the user is present and one of these is missing, ask one short question. If h
 
 ---
 
-## 2. Conceptual commitments (the "Fraser lens")
+## 2. Conceptual commitments (the vulnerability–resilience lens)
 
 These are the ideas that recur across the corpus. Use them as organizing logic, not as decoration.
 
@@ -111,17 +111,17 @@ Choose the one that matches the paper type and adapt it to the journal.
 
 ## 4. Paragraph- and section-level moves
 
-Paraphrase these templates; do not reuse Fraser's sentences.
+Paraphrase these templates; do not reuse sentences from the corpus.
 
 - **Concede, then complicate.** "On the surface, X is impressive… However, on closer inspection…"
-- **Name the question explicitly.** Fraser uses genuine questions mid-argument ("What made the system so vulnerable that a common problem…?"; "Are we headed in the same direction?"). Use one or two per paper, at turning points.
+- **Name the question explicitly.** The corpus uses genuine questions mid-argument ("What made the system so vulnerable that a common problem…?"; "Are we headed in the same direction?"). Use one or two per paper, at turning points.
 - **Signpost lists.** "First… Second… Third… Finally…"; "Three main points can be drawn…"; "From this analysis two broad conclusions stand out."
 - **End each paragraph with a synthesis sentence.** "Therefore, the situation can be characterized as…"; "Looked at in this way, …"
 - **End each section with a bridge** that names what the section could not explain, so that the next section feels necessary.
 - **Use a challenge-by-analogy.** "Just as [field] identified the characteristics of vulnerable [systems] by studying past collapses, can we identify…?"
 - **Give a disaggregated explanation.** Replace a single-cause story (Malthusian collapse; government policy alone) with a breakdown of channels (for example, loss of indirect, then direct, then transfer entitlements).
 - **Let primary voices in.** Brief, attributed quotations from farmers at public hearings, historical reports, policy texts, media or cultural works: a single line that makes the stakes human. Keep them short.
-- **Handle contrary scholarship.** Name the minority or revisionist reading (Fraser's Cunfer/Gregory footnote is the model), credit it, say why the argument still stands for *this* purpose, and move on.
+- **Handle contrary scholarship.** Name the minority or revisionist reading (the Cunfer/Gregory footnote in Fraser 2013 is a model), credit it, say why the argument still stands for *this* purpose, and move on.
 - **Close with the decision-maker.** "This should be of considerable interest to policy makers because…", followed by the specific mechanism.
 
 ---
@@ -136,7 +136,7 @@ Paraphrase these templates; do not reuse Fraser's sentences.
 - **Numbers.** Anchor claims in concrete quantities with a source and baseline (people per unit of arable land; percentage of emissions; yields relative to normal; hectares; years).
 - **Figurative language.** Sparing (at most about one image per section) and drawn from systems and defence imagery: "accident waiting to happen", "lines of defence", "the fabric of rural life unravelled", "not a panacea", "wicked problem".
 - **Tone.** Balanced and non-partisan. Simple answers are "at best misguided". Acknowledge legitimate goals on every side. Avoid hype, single-solution advocacy, moralizing and unhedged forecasts.
-- **Spelling.** Canadian (behaviour, centre, defence, program, analyze/characterize), unless the target journal's style differs. Write "tradeoffs" as one word, as Fraser does, unless the journal hyphenates.
+- **Spelling.** Canadian (behaviour, centre, defence, program, analyze/characterize), unless the target journal's style differs. Write "tradeoffs" as one word, as the corpus does, unless the journal hyphenates.
 
 ---
 
@@ -150,13 +150,13 @@ Paraphrase these templates; do not reuse Fraser's sentences.
   - **inference** (the author's argument).
   In prose, this maps onto hedging strength.
 - Prefer primary data and original studies over syntheses. State the data year and scale.
-- When a framework from the corpus is used (Sen, panarchy, livelihood capitals, grid–group, mediated modelling), cite the original source the user holds. Do not cite Fraser for ideas he borrowed.
+- When a framework from the corpus is used (Sen, panarchy, livelihood capitals, grid–group, mediated modelling), cite the original source the user holds. Do not cite the corpus papers for ideas they borrowed.
 
 ---
 
 ## 7. Applying the lens to Dr. Bodrud-Doza's domains
 
-These are *applications* of Fraser's moves to the user's work, not claims Fraser made. Present them as the author's own reasoning.
+These are *applications* of the lens to the user's work, not claims made in the corpus. Present them as the author's own reasoning.
 
 - **Precision conservation and BMPs in tile-drained Great Lakes watersheds.**
   - Tenure and incentive logic (rented vs owned fields, lease length, cost-share and set-aside payments as intervening variables).
@@ -188,14 +188,14 @@ These are *applications* of Fraser's moves to the user's work, not claims Fraser
    - end each section with a bridge;
    - put a numbered list in the purpose statement and in the conclusions.
 6. Insert `[CITE: …]` wherever support is not yet in hand. Never fill one from memory.
-7. Self-check against `evans-reviewing` (the scorecard dimensions), then fix all Major issues before delivery.
+7. Self-check against `food-system-scholarship-reviewing` (the scorecard dimensions), then fix all Major issues before delivery.
 8. Deliver the draft with a short note listing the assumptions made, open `[CITE]` slots and claims tagged *contested* or *inference*.
 
 ---
 
 ## 9. Reference corpus (the basis of this skill)
 
-Fraser-led (voice and argument):
+Lead-authored corpus papers (voice and argument):
 - Fraser, E.D.G. (2003). Social vulnerability and ecological fragility: building bridges between social and natural sciences using the Irish Potato Famine as a case study. *Conservation Ecology* 7(2): 9. URL: http://www.consecol.org/vol7/iss2/art9/. The DOI is not printed on the article; verify before citing.
 - Fraser, E.D.G. (2004). Land tenure and agricultural management: soil conservation on rented and owned fields in southwest British Columbia. *Agriculture and Human Values* 21: 73–79. https://doi.org/10.1023/B:AHUM.0000014020.96820.a1
 - Fraser, E.D.G. (2006). Food system vulnerability: using past famines to help understand how food systems may adapt to climate change. *Ecological Complexity* 3: 328–335. https://doi.org/10.1016/j.ecocom.2007.02.006
@@ -213,6 +213,6 @@ Co-authored, with others as lead writer (use these for empirical structure and f
 
 ## 10. Limits of this style model
 
-- The corpus covers 2003–2019. It does not include Fraser's more recent work on food-system resilience, anticipatory action or stress-testing. Ask the user to add those papers if the draft depends on his current framing.
-- Seven papers are Fraser-led. In the three co-authored papers the prose reflects the first authors.
+- The corpus covers 2003–2019. It does not include the more recent literature on food-system resilience, anticipatory action or stress-testing. Ask the user to add those papers if the draft depends on that framing.
+- Seven papers share the same lead author (Fraser). In the three co-authored papers the prose reflects the first authors.
 - Style is a means, not a constraint. Where a target journal's genre (for example, a hydrological modelling paper) does not suit a historical hook or a narrative frame, keep the transferable moves (shock vs context, lines of defence, tradeoffs, scale follows pathways, honest limits) and drop the genre-specific ones.

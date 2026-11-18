@@ -10,10 +10,10 @@
   "repository": "https://github.com/bdzion/claude_skills_z",
   "skills": [
     "./bodrud-doza-scholarly-voice",
-    "./evans-clean-writing",
-    "./evans-reviewing",
-    "./evans-writing",
     "./fable-playbook",
+    "./food-system-scholarship-public-writing",
+    "./food-system-scholarship-reviewing",
+    "./food-system-scholarship-writing",
     "./food-system-stress-test",
     "./grant-proposal-canada",
     "./precision-conservation-gis",

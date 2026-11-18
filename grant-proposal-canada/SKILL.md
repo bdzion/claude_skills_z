@@ -23,8 +23,8 @@ credible for the budget and team, and the text respects every limit.
    outputs → outcomes → impact). Keep objectives measurable and tie each to work-plan
    activities, milestones, people and budget lines.
 4. **Write in the user's voice.** For prose that will go out under Dr. Bodrud-Doza's name,
-   apply the bodrud-doza-scholarly-voice skill; for text co-written with Evan Fraser on
-   food systems, the evans-writing skill. When editing the user's own text, change grammar
+   apply the bodrud-doza-scholarly-voice skill; for food-system
+   scholarship text, the food-system-scholarship-writing skill. When editing the user's own text, change grammar
    and clarity only and show every change.
 5. **Check compliance** with `scripts/compliance_check.py draft.md limits.json` (copy
    `assets/limits_template.json` and fill it from the official instructions), then run
