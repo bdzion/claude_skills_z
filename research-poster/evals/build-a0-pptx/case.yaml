@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: build-a0-pptx
+expected_outcome: |
+  Builds an editable .pptx at A0 portrait (33.11 x 46.81 in) on a column grid with scaled
+  type (body around 32 pt), renders a preview, and reports overflow, column balance and
+  image resolution issues.

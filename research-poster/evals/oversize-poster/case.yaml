@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: oversize-poster
+expected_outcome: |
+  Explains PowerPoint's 56-inch slide limit and builds at half scale (36 x 18 in) with
+  type halved, to be printed at 200 %.

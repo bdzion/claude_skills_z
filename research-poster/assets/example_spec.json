@@ -1,0 +1,28 @@
+{
+  "size": "A0-portrait",
+  "columns": 3,
+  "title": "[Poster title: the finding or question in one line]",
+  "authors": "Md Bodrud-Doza, [co-authors]",
+  "affiliations": "Department of Geography, Environment and Geomatics, University of Guelph",
+  "contact": "[email]",
+  "poster_id": "[poster ID from the venue]",
+  "logos": [],
+  "sections": [
+    {"heading": "Background and gap", "column": 0,
+     "paragraphs": ["[Two or three sentences: the management problem and why it matters for the watershed or food system.]",
+                    "[One or two sentences: what is not yet known, stated as the gap this work fills.]"]},
+    {"heading": "Study area and data", "column": 0,
+     "paragraphs": ["[Watershed, area, land use, monitoring period and data sources.]"],
+     "image": "figures/study_area.png", "caption": "[Figure 1. Study area; CRS and data credits.]"},
+    {"heading": "Approach", "column": 1,
+     "paragraphs": ["[Model or analysis, calibration and evaluation in plain terms; scenarios compared.]"],
+     "image": "figures/workflow.png", "caption": "[Figure 2. Workflow.]"},
+    {"heading": "Results", "column": 2,
+     "paragraphs": ["[The two or three results that carry the takeaway, with numbers, units and uncertainty from the manuscript.]"],
+     "image": "figures/results.png", "caption": "[Figure 3. Main result.]"},
+    {"heading": "Implications", "column": 2,
+     "paragraphs": ["[What a conservation authority, farmer or policymaker can do with this.]"]}
+  ],
+  "conclusion": {"headline": "[One-sentence takeaway that a passer-by remembers]",
+                 "text": "[Two sentences of support and the next step.]"}
+}

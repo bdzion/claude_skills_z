@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: near-miss-journal-figure
+expected_outcome: |
+  A journal figure request; the response makes a manuscript figure, not a poster.

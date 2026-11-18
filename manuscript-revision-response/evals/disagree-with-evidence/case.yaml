@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: disagree-with-evidence
+expected_outcome: |
+  Drafts a courteous response that answers first, explains with evidence why monthly
+  calibration is appropriate given the data (sparse grab samples, load estimation
+  uncertainty), notes what was changed (e.g. clarified text, added limitation, daily flow
+  performance if available), and does not claim changes that were not made.

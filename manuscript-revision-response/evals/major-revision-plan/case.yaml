@@ -1,0 +1,7 @@
+schema_version: "1.1"
+name: major-revision-plan
+expected_outcome: |
+  Turns the reports into a numbered plan with stable IDs, asks the author to categorise
+  items (revise/clarify/disagree/out of scope) and link duplicates, flags requested
+  analyses to decide early, and proposes an order of work; does not start editing the
+  manuscript without approval.

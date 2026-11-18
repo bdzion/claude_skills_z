@@ -14,5 +14,5 @@ jobs:
         run: python tools/validate_skills.py
       - name: Bundled script self-tests
         run: |
-          pip install numpy pandas scipy matplotlib rasterio
+          pip install numpy pandas scipy matplotlib rasterio python-pptx python-docx pillow
           python tools/selftest.py

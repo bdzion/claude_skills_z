@@ -1,0 +1,6 @@
+schema_version: "1.1"
+name: paper-to-poster-plan
+expected_outcome: |
+  Asks for or confirms the poster size and venue requirements and the manuscript before
+  building; proposes a one-sentence takeaway and 3-5 section plan for approval first; does
+  not invent results; plans an editable PowerPoint build.

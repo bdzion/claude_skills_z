@@ -1,0 +1,5 @@
+schema_version: "1.1"
+name: near-miss-peer-review-someone-else
+expected_outcome: |
+  This is writing a referee report as a reviewer, not responding to reviews; the response
+  helps write a review and does not build a response letter.

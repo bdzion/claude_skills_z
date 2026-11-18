@@ -15,6 +15,8 @@ matches its description, plus scripts, reference notes and test cases where usef
 | [food-system-stress-test](food-system-stress-test/) | Shock scenarios, early vs delayed action, avoidable losses, concept notes and dashboard specs | `shock_scenarios.py` (transparent propagation model), example scenario |
 | [research-figures-maps](research-figures-maps/) | Publication figures and maps: hydrographs, FDCs, load-duration curves, obs vs sim, scenarios | `zfig.py` (house style and plot recipes) |
 | [grant-proposal-canada](grant-proposal-canada/) | Mitacs, NSERC, SSHRC, NFRF, OMAFA and foundation proposals | `compliance_check.py` (section limits from current guidelines) |
+| [manuscript-revision-response](manuscript-revision-response/) | Revise-and-resubmit rounds in Word: comment plan, triage, item-by-item changes, response letter | `parse_comments.py` (decision letter → numbered plan), `build_response_letter.py` (.docx letter) |
+| [research-poster](research-poster/) | Conference posters as editable PowerPoint + PDF: takeaway, section plan, grid layout, checks | `build_poster.py` (JSON spec → .pptx, overflow and image-resolution checks, preview) |
 | [watershed-writing](watershed-writing/) | Drafting watershed modelling and management manuscripts | — |
 | [watershed-reviewing](watershed-reviewing/) | Scorecard reviews of watershed drafts | — |
 | [bodrud-doza-scholarly-voice](bodrud-doza-scholarly-voice/) | Editing or drafting in my published scholarly voice | — |
